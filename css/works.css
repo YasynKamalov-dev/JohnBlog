@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 750px;
+    margin: 0 auto;
+}
+
+
+/* WORKS ================= */
+#header{
+    margin: 30px 70px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 80px;
+}
+.header a{
+    color: #000;
+font-size: 20px;
+font-weight: 650;
+transition: .3s;
+}
+.header a:hover{
+    transform: scale(1.1);
+}
+
+.container ion-icon{
+    font-size: 40px;
+    color: black;
+    margin-left: 100px;
+    transition: .2s;
+    background: none;
+}
+.container ion-icon:hover{
+    transform: scale(.9);
+}
+.container ion-icon:active{
+    box-shadow: 0px 0px 10px 10px #00000045;
+    color: red;
+}
+.visited a{
+    color: #FF6464;
+    font-size: 24px;
+}
+
+
+
+
+
+
+/* HERo ============== */
+.future h5{
+    color: var(--Dark-Color, #21243D);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px; /* 136.364% */
+    margin: 150px 0px 40px 0px;
+}
+.future-card-info h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 700;
+}
+.future-btns{
+    display: flex;
+    gap: 36px;
+    margin: 19px 0px;
+}
+.btn-1{
+    width: 62px;
+height: 25px;
+border-radius: 16px;
+background: #142850;
+border: none;
+color: #FFF;
+font-size: 14px;
+font-weight: 900;
+}
+.btn-2{
+    background: transparent;
+    border: none;
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+}
+.future-card-info p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+}
+.future-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.future-cards hr{
+    margin: 30px 0px 40px 0px;
+}
+
+/* FOOTER ========== */
+#footer{
+    margin: 100px 0px 40px 0px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 19px;
+}
+.footer-icons ion-icon{
+    color: #21243D;
+    font-size: 30px;
+}
+.footer-icons{
+    display: flex;
+}
+.footer h2{
+    color: var(--Dark, #21243D);
+font-size: 14px;
+font-weight: 400;
+}

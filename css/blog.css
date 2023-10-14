@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+
+/* HEADER ========= */
+#header{
+    margin: 30px 70px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 80px;
+}
+.header a{
+    color: #000;
+font-size: 20px;
+font-weight: 650;
+transition: .3s;
+}
+.header a:hover{
+    transform: scale(1.1);
+}
+
+
+
+/* HERO ============== */
+#hero{
+    margin-top: 160px;
+}
+.hero h1{
+    color: var(--Dark-Color, #21243D);
+font-size: 44px;
+font-weight: 700;
+line-height: 60px; /* 136.364% */
+margin-bottom: 70px;
+}
+.itself-block h3{
+    color: var(--Dark-Color, #21243D);
+font-size: 30px;
+font-weight: 500;
+}
+.block-date{
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+.block-date p{
+    color: var(--Dark-Color, #21243D);
+font-size: 20px;
+font-weight: 400;
+}
+.block-date h5{
+    color: var(--Light, #8695A4);
+font-size: 20px;
+font-weight: 400;
+}
+.itself-block p{
+    color: var(--Dark-Color, #21243D);
+font-size: 16px;
+font-weight: 400;
+}
+.itself-block{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.blog-info hr{
+background:  #E0E0E0;
+margin: 20px 0px 70px 0px;
+}
+
+
+/* FOOTER ==========*/
+#footer{
+    margin: 100px 0px 40px 0px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 19px;
+}
+.footer-icons ion-icon{
+    color: #21243D;
+    font-size: 29px;
+}
+.footer-icons{
+    display: flex;
+    gap: 39px;
+}
+.footer h2{
+    color: var(--Dark, #21243D);
+font-size: 14px;
+font-weight: 400;
+}
+
+
+/* BACK */
+.container ion-icon{
+    font-size: 40px;
+    color: black;
+    margin-left: 100px;
+    transition: .2s;
+    background: none;
+}
+.container ion-icon:hover{
+    transform: scale(.9);
+}
+.container ion-icon:active{
+    box-shadow: 0px 0px 10px 10px #00000045;
+    color: red;
+}
+.visited a{
+    color: #FF6464;
+    font-size: 24px;
+}
